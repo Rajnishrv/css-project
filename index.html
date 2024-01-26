@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Project</title>
     <style>
-
         /* css reset */
         * {
             box-sizing: border-box;
@@ -16,6 +15,7 @@
             font-family: arial;
             margin: 0;
         }
+
         /* header */
 
         .header {
@@ -43,29 +43,33 @@
             background-color: gray;
             color: white;
         }
-        .row{
+
+        .row {
             display: flex;
             flex-wrap: wrap;
         }
-        .sidebar{
+
+        .sidebar {
             flex: 30%;
             background-color: azure;
             padding: 20px;
         }
 
-        .main-content{
-            flex:70% ;
+        .main-content {
+            flex: 70%;
             background-color: antiquewhite;
             padding: 20px;
         }
-        .title-image{
+
+        .title-image {
             background-color: tan;
             width: 100%;
             max-width: 100%;
             height: auto;
             padding: 20px;
         }
-        .img{
+
+        .img {
             background-color: #ffcc5c;
             width: 50%;
             max-width: 50%;
@@ -79,24 +83,52 @@
             animation-iteration-count: infinite;
         }
 
-        @keyframes image{
-            0% {background-color:#ffff33; left:0px; top:0px}
-            25% {background-color:#ffcc33; left:200px; top:0px}
-            50% {background-color:#ff9933; left:200px; top:50px}
-            75% {background-color:#ff6633; left:0px; top:50px}
-            100% {background-color:#ff3333; left:0px; top:0px}
+        @keyframes image {
+            0% {
+                background-color: #ffff33;
+                left: 0px;
+                top: 0px
+            }
+
+            25% {
+                background-color: #ffcc33;
+                left: 200px;
+                top: 0px
+            }
+
+            50% {
+                background-color: #ff9933;
+                left: 200px;
+                top: 50px
+            }
+
+            75% {
+                background-color: #ff6633;
+                left: 0px;
+                top: 50px
+            }
+
+            100% {
+                background-color: #ff3333;
+                left: 0px;
+                top: 0px
+            }
         }
 
-        .footer{
+        .footer {
             padding: 5px;
             text-align: center;
             background: cadetblue;
         }
-        ul{
+
+        ul {
             list-style-image: url("images/");
         }
-        @media(max-width:700px){
-            .row, .navbar{
+
+        @media(max-width:700px) {
+
+            .row,
+            .navbar {
                 flex-direction: column;
 
             }
@@ -136,41 +168,58 @@
             <img class="img" src="images/logo.png" alt="logo" width="100px"><br><br>
         </div>
 
-    <div class="main-content">
-        <h2>Main Content of this page </h>
+        <div class="main-content">
+            <h2>Main Content of this page </h>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex molestias nihil, tenetur ipsum
-                nulla ab, a maiores officia repudiandae corrupti praesentium qui voluptatum alias doloribus totam quo
-                odio eius velit eum! Quos dolorem ad, tempore vel obcaecati provident mollitia voluptas corrupti
-                voluptatibus impedit excepturi ex doloremque neque fuga inventore distinctio nam tenetur suscipit illum
-                repellat saepe amet culpa. Cum aliquid necessitatibus repellendus</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex molestias nihil, tenetur
+                    ipsum
+                    nulla ab, a maiores officia repudiandae corrupti praesentium qui voluptatum alias doloribus totam
+                    quo
+                    odio eius velit eum! Quos dolorem ad, tempore vel obcaecati provident mollitia voluptas corrupti
+                    voluptatibus impedit excepturi ex doloremque neque fuga inventore distinctio nam tenetur suscipit
+                    illum
+                    repellat saepe amet culpa. Cum aliquid necessitatibus repellendus</p>
 
-            <p>ipsum nam eum dignissimos odio maxime repellat itaque, at mollitia quasi quam. Explicabo quaerat porro
-                aliquam ut accusamus alias,
-                exercitationem ipsum! Distinctio error quos perferendis ab laborum nihil, dolorem deserunt dignissimos
-                harum aut similique fugit neque earum repellendus mollitia dolor facere iusto temporibus quidem eos
-                delectus nemo velit corporis. Aperiam necessitatibus atque quo, eos tempora ipsum natus rem, minima
-                laudantium nostrum dolorum, eveniet animi iste pariatur aliquam tenetur debitis! Eum quidem nobis ullam
-                voluptate voluptas ipsum distinctio ad? Harum voluptatibus eum doloremque, quam nisi deleniti dolor ea
-                labore eos modi, veniam eveniet dicta recusandae cupiditate officiis reiciendis error. Magnam ipsa,
-                corrupti voluptatum iste dicta libero delectus sunt qui ratione nam ipsam, accusamus sapiente eligendi,
-                dolorum nulla a vero amet voluptas exercitationem at eius? Facere deserunt nam quibusdam veniam
-                similique dignissimos dicta officia ducimus animi, vitae vero fugit dolores laborum velit, perspiciatis
-                enim quidem. Voluptatibus, nostrum odit quod ad adipisci culpa necessitatibus? Voluptate quis
-                necessitatibus, nostrum facilis tenetur iusto nam placeat voluptates? Nemo debitis hic velit, quod alias
-                minus, est, quo iusto ullam officiis distinctio ipsam obcaecati facere iste reprehenderit ipsa accusamus
-                quae aliquam. Hic veniam culpa nam possimus. Molestias cumque quos aperiam laudantium tenetur
-                repudiandae illum voluptates cupiditate? Cumque consequuntur reprehenderit ut sapiente consectetur
-                suscipit eaque sed, nam, nesciunt consequatur rerum possimus magni impedit ullam laborum nulla tempora
-                itaque fugiat id illum dolores debitis architecto? Nisi, error mollitia enim non magni ea minus, veniam
-                praesentium sit quas est quod quae ipsam accusamus, pariatur labore id delectus odit dicta. Ea fugiat
-                nobis, non pariatur voluptate recusandae ullam eius voluptatum corrupti molestias exercitationem
-                quisquam voluptates ut perspiciatis nostrum eos temporibus illum nemo corporis laborum, aliquam at
-                distinctio aperiam. In adipisci eaque mollitia expedita veritatis fuga animi aspernatur, possimus vel
-                quasi maxime ipsam rerum. Cum voluptas, eius molestias libero vel magnam, ut error aliquam voluptates
-                quisquam repellendus hic temporibus quos est nisi pariatur nulla animi voluptatem iusto impedit fugiat
-                blanditiis. Quisquam nemo optio, perferendis assumenda doloremque porro, quia sed soluta architecto
-                autem reiciendis maxime earum dolore similique, fuga aperiam consectetur?</p>
+                <p>ipsum nam eum dignissimos odio maxime repellat itaque, at mollitia quasi quam. Explicabo quaerat
+                    porro
+                    aliquam ut accusamus alias,
+                    exercitationem ipsum! Distinctio error quos perferendis ab laborum nihil, dolorem deserunt
+                    dignissimos
+                    harum aut similique fugit neque earum repellendus mollitia dolor facere iusto temporibus quidem eos
+                    delectus nemo velit corporis. Aperiam necessitatibus atque quo, eos tempora ipsum natus rem, minima
+                    laudantium nostrum dolorum, eveniet animi iste pariatur aliquam tenetur debitis! Eum quidem nobis
+                    ullam
+                    voluptate voluptas ipsum distinctio ad? Harum voluptatibus eum doloremque, quam nisi deleniti dolor
+                    ea
+                    labore eos modi, veniam eveniet dicta recusandae cupiditate officiis reiciendis error. Magnam ipsa,
+                    corrupti voluptatum iste dicta libero delectus sunt qui ratione nam ipsam, accusamus sapiente
+                    eligendi,
+                    dolorum nulla a vero amet voluptas exercitationem at eius? Facere deserunt nam quibusdam veniam
+                    similique dignissimos dicta officia ducimus animi, vitae vero fugit dolores laborum velit,
+                    perspiciatis
+                    enim quidem. Voluptatibus, nostrum odit quod ad adipisci culpa necessitatibus? Voluptate quis
+                    necessitatibus, nostrum facilis tenetur iusto nam placeat voluptates? Nemo debitis hic velit, quod
+                    alias
+                    minus, est, quo iusto ullam officiis distinctio ipsam obcaecati facere iste reprehenderit ipsa
+                    accusamus
+                    quae aliquam. Hic veniam culpa nam possimus. Molestias cumque quos aperiam laudantium tenetur
+                    repudiandae illum voluptates cupiditate? Cumque consequuntur reprehenderit ut sapiente consectetur
+                    suscipit eaque sed, nam, nesciunt consequatur rerum possimus magni impedit ullam laborum nulla
+                    tempora
+                    itaque fugiat id illum dolores debitis architecto? Nisi, error mollitia enim non magni ea minus,
+                    veniam
+                    praesentium sit quas est quod quae ipsam accusamus, pariatur labore id delectus odit dicta. Ea
+                    fugiat
+                    nobis, non pariatur voluptate recusandae ullam eius voluptatum corrupti molestias exercitationem
+                    quisquam voluptates ut perspiciatis nostrum eos temporibus illum nemo corporis laborum, aliquam at
+                    distinctio aperiam. In adipisci eaque mollitia expedita veritatis fuga animi aspernatur, possimus
+                    vel
+                    quasi maxime ipsam rerum. Cum voluptas, eius molestias libero vel magnam, ut error aliquam
+                    voluptates
+                    quisquam repellendus hic temporibus quos est nisi pariatur nulla animi voluptatem iusto impedit
+                    fugiat
+                    blanditiis. Quisquam nemo optio, perferendis assumenda doloremque porro, quia sed soluta architecto
+                    autem reiciendis maxime earum dolore similique, fuga aperiam consectetur?</p>
 
                 <h2>Who this internship is for:</h2>
                 <h5>Your intership will be begun on the 15th of jan, 2024</h5>
@@ -179,7 +228,7 @@
                     <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, vel!</li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 </ul>
-            </div>
+        </div>
     </div>
     <div class="footer">
         <h2>Rajnish kumar</h2>
